@@ -15,11 +15,12 @@ Steps
 3. Drag your iso file you downloaded and click continue until you are finished
 4. You will be brought to this screen now, press enter to install ![](https://i.imgur.com/OgPMq23.png)
 5. Double click the **Install Ubuntu** desktop icon or find the icon at the left bar 
+
    ![](https://i.imgur.com/IsvzOe0.png) 
-7. Leave everything with the default settings and keep pressing continue 
-8. When you reach the credentials page you can use these credentials in the guide *(Optionally set Login automatically)* ![](https://i.imgur.com/3yREalB.png)
-9. After you have restarted your Ubuntu VM, press enter to boot.
-10. Now enter your credentials from Step 8 and you will be inside your fully functional Ubuntu VM
+6. Leave everything with the default settings and keep pressing continue 
+7. When you reach the credentials page you can use these credentials in the guide *(Optionally set Login automatically)* ![](https://i.imgur.com/3yREalB.png)
+8. After you have restarted your Ubuntu VM, press enter to boot.
+9. Now enter your credentials from Step 8 and you will be inside your fully functional Ubuntu VM
 
 # Install Docker
 Taken from this guide
