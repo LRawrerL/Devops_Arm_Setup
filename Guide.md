@@ -74,9 +74,10 @@ kubectl version --client --output=yaml
 
 ## What is a Control Plane
 In order to run `kubectl` commands to create pods and many others. We need a control plane which helps manage clusters and resources
+- We will be installing **MiniKube** as our control plane
 ![](https://i.imgur.com/pybn22F.png)
 
-## Install Minikube
+## Install Minikube 
 Taken from this guide
 - [Install Minikube Documentation](https://minikube.sigs.k8s.io/docs/start/)
 
