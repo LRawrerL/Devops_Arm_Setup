@@ -1,3 +1,8 @@
+# Why a VM
+Utilizing a VM provides a contained environment which wont interfere with home environment
+- Easily install software for testing 
+- Can easily boot from a fresh version if there is any mishaps
+
 # Pre-requisites 
 We need to either install UTM or VMWare Fusion Player
 - [VMWare Fusion Player](https://www.vmware.com/sg/products/fusion/fusion-evaluation.html) 
@@ -6,6 +11,8 @@ We need to either install UTM or VMWare Fusion Player
 # Downloading ISO
 We will be downloading the Jammy JellyFish version of Ubutunu
 - [jammy-desktop-arm64.iso](https://cdimage.ubuntu.com/jammy/daily-live/pending/)
+
+The reason why we choosing Ubuntu as it is opened sourced and continuously maintained, widely used by a large amount of people and companies. 
 
 # Running it on VM
 *(Note) We will be doing it on VMWare Fusion*
@@ -22,7 +29,11 @@ Steps
 8. After you have restarted your Ubuntu VM, press enter to boot.
 9. Now enter your credentials from Step 8 and you will be inside your fully functional Ubuntu VM
 
-# Install Docker
+# What is Docker?
+A software that easily allows us to package software with all it dependencies into images.
+- Images can be used to create containers or to simply put instances of that same software.
+
+## Install Docker
 Taken from this guide
 - [How to Install Docker Documentation](https://docs.docker.com/engine/install/ubuntu/)
 	- Following **Install using the `apt` directory**
@@ -59,7 +70,11 @@ su - ${USER}
 docker run hello-world #checks if docker is working
 ```
 
-# Install Kubernetes
+# What is Kubernetes
+A open-source container orchestration system.
+- Helps automate deployment, scaling and management of containerized applications.
+
+## Install Kubernetes
 Taken from this guide 
 - [Install Kubernetes Documentaiton](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 
